@@ -1,0 +1,56 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_ipfsHash",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_fileName",
+				"type": "string"
+			}
+		],
+		"name": "storeFile",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "files",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "ipfsHash",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "fileName",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getFile",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
